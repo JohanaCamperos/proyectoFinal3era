@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>VeneTour</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="viajes, vacaciones, camping, ">
+</head>
+<body>
+  <header class="encabezado">
+    <h1 class="titulo-web">VeneTour</h1>
+  </header>
+  <nav class="bg-info">
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./tour.html">Tours</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./contact.html">Contacto</a>
+      </li>
+    </ul>
+  </nav>
+  <section class="section p-5">
+    <div>
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+          <div class="container overflow-hidden">
+              <div class="row gx-5">
+                <div class="col">
+                  <div class="p-3 border">
+                    <h3>Acerca de Nosotros</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi non blanditiis! Odit mollitia ut temporibus quis, veritatis aliquid labore explicabo tenetur porro nostrum fuga alias molestias facere, accusantium nesciunt.</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-3 border">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./assets/IMG-9027.jpg" class="d-block w-100" alt="paisaje">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/Screenshot 2021-07-17 170220.png" class="d-block w-100" alt="paisaje">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/Screenshot 2021-07-17 165448.png" class="d-block w-100" alt="paisaje">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-4 border p-3">
+            <h3>Experiencias</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi non blanditiis! Odit mollitia ut temporibus quis, veritatis aliquid labore explicabo tenetur porro nostrum fuga alias molestias facere, accusantium nesciunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi non blanditiis! Odit mollitia ut temporibus quis, veritatis aliquid labore explicabo tenetur porro nostrum fuga alias molestias facere, accusantium nesciunt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Envíar Experiencia</button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cuéntanos tu experiencia con nosotros</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Nombre:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label">Mensaje:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Envíar mensaje</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer d-flex justify-content-center">
+    <h3>Sigueme</h3>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-facebook-f"></i>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>

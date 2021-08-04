@@ -1,0 +1,161 @@
+body {
+    background-image: url(./assets/FB_IMG_1627417982916.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.playa {
+    background-image: url(./assets/IMG-9027.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.montaña {
+    background-image: url(./assets/Screenshot\ 2021-07-17\ 170220.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.dunas {
+    background-image: url(./assets/Screenshot\ 2021-07-27\ 195035.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.encabezado {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
+.encabezado .titulo-web {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 80px;
+    font-weight: 600;
+    color: #ffffff;
+   align-items: center;
+}
+
+.nav-link:hover {
+    background-color: #4a73b1;
+    border-radius: 10px;
+    color: #21abc7;
+    transition: 1s;
+    
+}
+
+h2, h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.card-title {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+}
+
+p, span, li, legend, label, .card-text {
+    color: #4a73b1;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.border, div.card {
+    border-style: solid;
+    border-color: #dee2e6;
+    border-radius: 10px;
+    background-color: #dee2e691;
+}
+
+.border-title {
+    border-style: solid;
+    border-color: #4a73b1;
+    border-radius: 10px;
+    background-color: #4a73b178;
+}
+
+div.card:hover {
+    transform: skewY(2deg);
+    padding: 20px;
+    transition: 2s;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #21abc7;
+}
+
+.btn-promo {
+    border-radius: 10px;
+    min-width: 100px;
+    height: 50px;
+    padding: 0 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color:#21abc7);
+    animation-name: promo;
+    animation-duration: 10s;
+    animation-timing-funcion: lineal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes promo {
+    0% {background: #21abc7; left: 100px; top: 0px}
+    10% {background: #ffffff; left: 250px; top: 0px}
+    20% {background: #21abc7; left: 400px; top: 0px}
+    30% {background: #ffffff; left: 550px; top: 0px}
+    40% {background: #21abc7; left: 700px; top: 0px}
+    50% {background: #ffffff; left: 950px; top: 0px}
+    60% {background: #21abc7; left: 700px; top: 0px}
+    70% {background: #ffffff; left: 550px; top: 0px}
+    80% {background: #21abc7; left: 400px; top: 0px}
+    90% {background: #ffffff; left: 250px; top: 0px}
+    100% {background: #21abc7; left: 100px; top: 0px}
+}
+
+@media (max-width: 768px) {
+    body{
+        background-color: rgb(130, 218, 253);
+    }
+
+    nav.bg-info{
+        display: flex;
+        justify-content: center;
+    }
+
+    section{
+        font-size: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+
+
